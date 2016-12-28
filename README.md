@@ -18,22 +18,20 @@ You should have the same DNA to join us
 
 ## How do we work?
 
-Đây là phần tóm tắt workflow và cách thức team làm việc với nhau
-
-* [Onboarding](url) <- link tới doc hướng dẫn thông tin dành cho người mới tham gia nhóm (quan trọng)
-* [On call](url) <- trách nhiệm, kì vọng, cách viết report cho nhiệm vụ trực ca (nếu cty có phải làm)
-* [Expectation](url) <- một doc chung chung về kì vọng tối thiểu của team về chất lượng công việc, vd bạn có thể nói GitHub PR phải như thế nào mới gọi là PR tốt, phương thức test, coverage ratio, vv
+* [Onboarding](http://): **SHOULD READ**! This shows the fastest way for you to get on board
+* [On call](http://): expectation for on call tasks
+* [Expectation](http://): general expectation for team output quality
 * [We are hiring](https://github.com/dwarvesf/WeAreHiring): this is how we recruit new dwarves into our Woodland
 
 ### We do agile
 
-Because we know that teamwork is one of important factor to be successful. We reserve a separate post for it. Checkout this post to [know more about our teamwork philosophy and how we apply Agile to improve the productivity.](/additional-info/agile.md)
+Because we know that teamwork is one of important factor to be successful. We reserve a separate post for it. Checkout this post to [know more about our teamwork philosophy and how we apply Agile to improve the productivity.](https://github.com/dwarvesf/WeAreHiring/additional-info/agile.md)
 
 [![working](https://raw.githubusercontent.com/dwarvesf/WeAreHiring/master/images/working.jpg)](/images/working.jpg)
 
 ### Our stack and technology
 
-Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](/additional-info/tech.md)
+Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https://github.com/dwarvesf/WeAreHiring/additional-info/tech.md)
 
 - Git with [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
 - Android / Java with Rx Programming
@@ -67,10 +65,10 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](/addi
 #### Live
 
 - [Voices of Sales](http://voicesofsales.com)
-- [Amio Property](playstore://)
+- [Amio Property](http://)
 - [Delivr](http://delivr.to)
-- [Mes Artisan Beaute](appstore://)
-- [ClipChute](appstore://)
+- [Mes Artisan Beaute](http://)
+- [ClipChute](http://)
 
 #### Archived
 
@@ -114,13 +112,13 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](/addi
 
 (Old members)
 
+- [Truong Nguyen](http://)
+- [Tran Van Thanh](http://)
 - [Nguyen Hoang Linh](https://github.com/linh) (Frontend Seargant) ()
 - [Nguyen Thanh Trung](https://github.com/trung) ()
+- [Thien Do](http://)
 - [Nguyen Le Duy](https://linkedin.com) ()
 - [Trang Nguyen](http://)
-- [Truong Nguyen](http://)
-- [Thien Do](http://)
-- [Tran Van Thanh](http://)
 
 ### Misc
 
