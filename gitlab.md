@@ -15,7 +15,7 @@ Then create fellow repositories:
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-project.png">
 
-Then add members with roles:
+Next, add members with roles:
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-new-member.png">
 
@@ -29,14 +29,17 @@ There are few roles in Gitlab, we use:
 
 Each repository must have those files as initialisation.
 
-- README.md: This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
+- `README.md`:
+
+This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
 
   - Requirement installation
   - How to compile and run
   - Development(architecture, how to extend new feature)
   - How to deploy
 
-- .gitlab/issue_templates/ISSUE_TEMPLATE.md
+- `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
+
 We uses `issues board` for task management. Every issue must follow this template.
 
 ```
@@ -77,7 +80,8 @@ You may write here the specifications like the version of the project, operating
 (Insert your log/stack trace here)
 ```
 
-- .gitlab/merge_request_templates/Feature.md
+- `.gitlab/merge_request_templates/Feature.md`
+
 We do use format for merge request(pull request) as well.
 
 ```
@@ -127,7 +131,7 @@ Dwarvesf has plenty of team members across the world, including part time and fu
 
 At the begining of the week, team members gather together to have quick meeting. After that, a leader who control the progress of project will create a bunch of issues as current sprint tasks.
 
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/issue-board-new-member.png">
+<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/issue-board.png">
 
 To start working, each team member picks an issue, and assign to themself.
 
