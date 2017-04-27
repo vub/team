@@ -1,13 +1,11 @@
-Dwarvesf uses self-host Gitlab as version control system.
-
-Every team member should follow these conventions.
+Dwarvesf uses **self-host Gitlab** as version control system. We do have some conventions that every team member should follow.
 
 # Init project
 To start a project, team leader/owner will be in charge in creating the repository and inviting related team members.
 
-Usually, project separated into frontend(Web, iOS, Android) and backend and belongs to the same group.
+Usually, project separated into frontend(Web, iOS, Android), backend and belongs to the same group.
 
-For example, to start Canlead project, the Owner create the group `canlead`.
+For example, to start Canlead project, the Owner creates the group `canlead`.
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-group.png">
 
@@ -30,17 +28,16 @@ There are few roles in Gitlab, we use:
 Each repository must have those files as initialisation.
 
 - `README.md`:
-
 This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
 
-  - Requirement installation
-  - How to compile and run
-  - Development(architecture, how to extend new feature)
-  - How to deploy
+   * Requirement installation
+   * How to compile and run
+   * Development(architecture, how to extend new feature)
+   * How to deploy
 
 - `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
 
-We uses `issues board` for task management. Every issue must follow this template.
+We uses **issues board** for tasks management. Every issue must follow this template.
 
 ```
 <!--
@@ -75,6 +72,11 @@ How does the program work in its current state?
 ### Environment
 
 You may write here the specifications like the version of the project, operating system, or hardware if applicable.
+
+#### Materials (if appropriate)
+<!--
+This might come from design or the previous version of application.
+-->
 
 ### Logs / Stack trace
 (Insert your log/stack trace here)
@@ -127,7 +129,7 @@ READY / IN DEVELOPMENT / HOLD
 
 # Workflow
 
-Dwarvesf has plenty of team members across the world, including part time and full time dwarves. To make sure the synchronization and colloboration, we has our own working flow.
+Dwarvesf has plenty of team members across the world, including part time and full time. To make sure the synchronization and collaboration, we has our own working flow.
 
 At the begining of the week, team members gather together to have quick meeting. After that, a leader who control the progress of project will create a bunch of issues as current sprint tasks.
 
@@ -135,7 +137,7 @@ At the begining of the week, team members gather together to have quick meeting.
 
 To start working, each team member picks an issue, and assign to themself.
 
-Before working on issue, estimation is a must. Developer can use spash command `/estimate` on gitlab like this:
+Before working on issue, estimation is a must. Developers can use spash command **/estimate** on gitlab like this:
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/estimate.png">
 
@@ -146,22 +148,24 @@ When team member finish developing a feature, create a merge request and assign 
 After taking a look(maybe actual run), reviewer will give feedbacks then assign back to assignee or accept this merge request. Developers have responsibility to resolve all feedbacks.
 
 
-When merge request accepted, assignee must record this ticket by `/spend` to log how much time spent on this issue.
+When merge request accepted, assignee must record this ticket by **/spend** to log how much time spent on this issue.
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/spend.png">
 
 In development, we use [git-flow](https://github.com/nvie/gitflow) for git branching model.
 
 There are several rules sumarized:
- * `master` and `develop` branches are protected.
- * `master` has the buildable source code always ready for production.
- * `develop` is in active development.
- * Every feature branch must has prefix `feature/`. Feature branchs only separated from develop and will be merge to develop.
+ * **master** and **develop** branches are protected.
+ * **master** has the buildable source code always ready for production.
+ * **develop** is in active development.
+ * Every feature branch must has prefix **feature/**. Feature branchs only separated from develop and will be merge to develop.
  * Merge request can be merged if there are more than 2 thumbs up.
+ 
+Dwarves prefer **CLI** to **GUI** git client.
 
 ## Work in progress(WIP) merge request
 
-If the task is taking longer than expected, assignee must provide the temporary merge request with prefix (WIP) and link to the related issue.
+If the task is taking longer than expected, assignee must provide the **temporary merge request** with prefix (WIP) and link to the related issue.
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/wip-mr.png">
 
