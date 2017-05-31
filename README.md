@@ -19,7 +19,6 @@ You should have the same DNA to join us
 ## How we work?
 
 * [Onboarding](/onboarding.md): **SHOULD READ**! This shows the fastest way for you to get on board
-* [On call](/oncall.md): expectation for on call tasks
 * [Expectation](/expectation.md): general expectation for team output quality
 * [We Are Hiring](https://github.com/dwarvesf/WeAreHiring): this is how we recruit new dwarves into our Woodland
 
@@ -72,7 +71,6 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [Dental Marketplace](https://dentalmarketplace.com.sg)
 - [CanLead](http://canlead.io)
 - [Haiku Android](http://play.google.com/)
-- []
 
 #### Archived
 
@@ -110,6 +108,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [Chu Duc Trung](https://www.linkedin.com/in/trungdchu/) (Sales Director)
 - [Trinh Le](http://) (Business Executive)
 - [Nguyen Ngoc Yen Ly](http://) (Business Executive)
+- [Tran Hoang Dong](http://) (Business Executive)
 - [Dao Thi Ha Thu](http://) (Internet Marketing)
 
 ## Alumni
@@ -125,5 +124,6 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 ### Misc
 
+- Devblog: http://devblog.dwarvesf.com
 - Machine setup: https://github.com/dwarvesf/setup-backend
 - dotfiles: https://github.com/dwarvesf/dotfiles

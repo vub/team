@@ -1,4 +1,4 @@
-# Training process
+# Onboarding
 
 ## Talk about culture and development process
 
