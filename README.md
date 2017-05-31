@@ -16,12 +16,12 @@ You should have the same DNA to join us
 - **Proactive**: Pick your most productivity time to work. You need to figure out yourself what you want to do and what you want to contribute aligned to the team goal as a dwarf in the tribe. We are too busy to tell you.
 - **Growth and sharing**: You can learn another skill from other teammates. We are happy to share it with you. And we believe that working hard and improving yourself everyday will make you paid back later. Read [this topic](https://www.quora.com/How-can-I-motivate-myself-to-work-hard) to keep yourself motivated.
 
-## How do we work?
+## How we work?
 
 * [Onboarding](/onboarding.md): **SHOULD READ**! This shows the fastest way for you to get on board
-* [On call](http://): expectation for on call tasks
-* [Expectation](http://): general expectation for team output quality
-* [We are hiring](https://github.com/dwarvesf/WeAreHiring): this is how we recruit new dwarves into our Woodland
+* [On call](/oncall.md): expectation for on call tasks
+* [Expectation](/expectation.md): general expectation for team output quality
+* [We Are Hiring](https://github.com/dwarvesf/WeAreHiring): this is how we recruit new dwarves into our Woodland
 
 ### We do agile
 
@@ -49,11 +49,12 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 #### DevOps
 
 - Ansible
-- Docker-centric workflow with DC/OS (mesosphere, mesos, marathon)
+- DC/OS (mesosphere, mesos, marathon): Docker-centric workflow
 
 #### Hosting
 
 - Heroku
+- Rackspace
 - Digital Ocean
 - SoftLayer
 - Amazon AWS
@@ -65,16 +66,20 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 #### Live
 
 - [Voices of Sales](http://voicesofsales.com)
-- [Amio Property](http://)
+- [Amio Property](http://amio.propery)
 - [Delivr](http://delivr.to)
-- [Mes Artisan Beaute](http://)
-- [ClipChute](http://)
+- [ClipChute](http://clipchut.com)
+- [Dental Marketplace](https://dentalmarketplace.com.sg)
+- [CanLead](http://canlead.io)
+- [Haiku Android](http://play.google.com/)
+- []
 
 #### Archived
 
 - [QuickRef](http://git/quickref)
 - [QuickDesk](http://git/quickdesk)
 - [KiwiCard](http://git/kiwicard)
+- [Mes Artisan Beaute](http://)
 
 ### Services & Configuration Manangement
 
@@ -82,23 +87,19 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 [![The team](https://raw.githubusercontent.com/dwarvesf/WeAreHiring/master/images/team-thumbnail.png)](/images/team-thumbnail.png)
 
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrDSjcCR3pasmzE4?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
 - [Han Ngo](https://www.linkedin.com/in/nntruonghan/) (CEO)
 
 ### Development
 
-- 
-- [Le Minh Quang](https://github.com/ivkean) (Tech Team Manager)
+- [Le Minh Quang](https://github.com/ivkean) (DevOps)
 - [Bui Vu Nam](https://github.com/nambv) (Mobile Team Leader)
-- [Le Nhu Khanh](http://linkedin.com) (QA Engineer)
-- [Le Ngoc Thach](https://github.com/runivn) (Backend)
-- [Phan Quang Hieu](http://github.com/hieupq) (iOS & Elixir)
-- [Giang Ngoc Huy](http://github.com/huygn)
-- [Tran Huu Minh](http://github.com/thminh) (Frontend & Elixir)
-- [Nguyen Huy](http://github.com/huyng) (Frontend Intern)
-- [Tran Quang Dat](http://) (Android Developer)
+- [Tran Quang Dat](https://github.com/dattran2346) (Android Engineer)
+- [Phan Quang Hieu](https://github.com/hieuphq) (iOS & Elixir)
+- [Huynh Cong Thai]() (iOS Engineer)
+- [Le Ngoc Thach](https://github.com/runivn) (Backend Engineer)
+- [Tran Huu Minh](https://github.com/thminhvn) (Web Frontend)
+- [Giang Ngoc Huy](http://github.com/huygn) (Web Frontend)
+- [Nguyen Hoang Huy](https://github.com/huynguyenh) (Web Frontend)
 
 ### Design
 
@@ -106,26 +107,23 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 ### Operation
 
-- [Trinh Le]()
-- [Nguyen Ngoc Yen Ly](http://)
-- [Dao Thi Ha Thu](http://)
+- [Chu Duc Trung](https://www.linkedin.com/in/trungdchu/) (Sales Director)
+- [Trinh Le](http://) (Business Executive)
+- [Nguyen Ngoc Yen Ly](http://) (Business Executive)
+- [Dao Thi Ha Thu](http://) (Internet Marketing)
 
 ## Alumni
 
-(Old members)
-
-- [Truong Nguyen](http://)
-- [Tran Van Thanh](http://)
-- Pham Duy Khang ([Pham Duy Khang](https://www.linkedin.com/in/khang-pham-duy-44a00a12a/) (iOS)
-- [Nguyen Hoang Linh](https://github.com/linh) (Frontend Seargant) ()
-- [Nguyen Thanh Trung](https://github.com/arvernorix) (Frontend Seargant)
-- [Do Chi Thien](https://github.com/dvkndn) (Frontend Seargant)
-- [Nguyen Le Duy](https://www.facebook.com/ngleduy) (Business Executive)
 - [Nguyen Thanh Tung](https://www.facebook.com/tungtono) (Growth Advisor)
+- [Nguyen Le Duy](https://www.facebook.com/ngleduy) (Business Executive)
 - [Dang Tan Thanh](https://www.linkedin.com/in/thanh-dang-tan-868551118/) (Designer)
+- [Pham Duy Khang](https://www.linkedin.com/in/khang-pham-duy-44a00a12a/) (iOS Engineer)
+- [Nguyen Hoang Linh](https://github.com/linh) (Frontend Seargant)
+- [Nguyen Thanh Trung](https://github.com/arvernorix) (Frontend Seargant)
+- [Do Chi Thien](https://github.com/dvkndn) (Frontend Intern)
+- [Nguyen Quoc Huy](http://github.com/huyng) (Frontend Intern)
 
 ### Misc
 
 - Machine setup: https://github.com/dwarvesf/setup-backend
-- dotfiles: https://github.com/tieubao/dotfiles
-
+- dotfiles: https://github.com/dwarvesf/dotfiles
