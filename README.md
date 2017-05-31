@@ -18,7 +18,7 @@ You should have the same DNA to join us
 
 ## How do we work?
 
-* [Onboarding](http://): **SHOULD READ**! This shows the fastest way for you to get on board
+* [Onboarding](/onboarding.md): **SHOULD READ**! This shows the fastest way for you to get on board
 * [On call](http://): expectation for on call tasks
 * [Expectation](http://): general expectation for team output quality
 * [We are hiring](https://github.com/dwarvesf/WeAreHiring): this is how we recruit new dwarves into our Woodland
@@ -36,7 +36,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - Git with [Gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
 - Android / Java with Rx Programming
 - iOS / Objective-C / Swift with Rx Programming
-- ReactJS
+- ReactJS & VueJS
 - Go / Beego / Any minimal frameworks
 - Elixir / Phoenix
 
@@ -82,30 +82,32 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 [![The team](https://raw.githubusercontent.com/dwarvesf/WeAreHiring/master/images/team-thumbnail.png)](/images/team-thumbnail.png)
 
-- [Han Ngo](https://github.com/tieubao) (CEO)
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrDSjcCR3pasmzE4?backgroundColor=red&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+- [Han Ngo](https://www.linkedin.com/in/nntruonghan/) (CEO)
 
 ### Development
 
+- 
 - [Le Minh Quang](https://github.com/ivkean) (Tech Team Manager)
 - [Bui Vu Nam](https://github.com/nambv) (Mobile Team Leader)
 - [Le Nhu Khanh](http://linkedin.com) (QA Engineer)
 - [Le Ngoc Thach](https://github.com/runivn) (Backend)
-- [Pham Duy Khang](http://github.com/khangpd) (iOS)
 - [Phan Quang Hieu](http://github.com/hieupq) (iOS & Elixir)
 - [Giang Ngoc Huy](http://github.com/huygn)
 - [Tran Huu Minh](http://github.com/thminh) (Frontend & Elixir)
 - [Nguyen Huy](http://github.com/huyng) (Frontend Intern)
-- [Tran Dat](http://) (Android Intern)
+- [Tran Quang Dat](http://) (Android Developer)
 
 ### Design
 
 - [Le Duy Khai](http://khaidle.me)
-- [Dang Tan Thanh](http://)
 
 ### Operation
 
-- [Nguyen Thanh Tung](http://)
-- [Ly Nguyen](http://)
+- [Trinh Le]()
+- [Nguyen Ngoc Yen Ly](http://)
 - [Dao Thi Ha Thu](http://)
 
 ## Alumni
@@ -114,11 +116,13 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 - [Truong Nguyen](http://)
 - [Tran Van Thanh](http://)
+- Pham Duy Khang ([Pham Duy Khang](https://www.linkedin.com/in/khang-pham-duy-44a00a12a/) (iOS)
 - [Nguyen Hoang Linh](https://github.com/linh) (Frontend Seargant) ()
-- [Nguyen Thanh Trung](https://github.com/trung) ()
-- [Thien Do](http://)
-- [Nguyen Le Duy](https://linkedin.com) ()
-- [Trang Nguyen](http://)
+- [Nguyen Thanh Trung](https://github.com/arvernorix) (Frontend Seargant)
+- [Do Chi Thien](https://github.com/dvkndn) (Frontend Seargant)
+- [Nguyen Le Duy](https://www.facebook.com/ngleduy) (Business Executive)
+- [Nguyen Thanh Tung](https://www.facebook.com/tungtono) (Growth Advisor)
+- [Dang Tan Thanh](https://www.linkedin.com/in/thanh-dang-tan-868551118/) (Designer)
 
 ### Misc
 
