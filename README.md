@@ -67,7 +67,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [Voices of Sales](http://voicesofsales.com)
 - [Amio Property](http://amio.propery)
 - [Delivr](http://delivr.to)
-- [ClipChute](http://clipchut.com)
+- [ClipChute](http://clipchute.com)
 - [Dental Marketplace](https://dentalmarketplace.com.sg)
 - [CanLead](http://canlead.io)
 - [Haiku Android](http://play.google.com/)
@@ -78,6 +78,9 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [QuickDesk](http://git/quickdesk)
 - [KiwiCard](http://git/kiwicard)
 - [Mes Artisan Beaute](http://)
+- [Meete iOS](http://)
+- [Tyk-pump](http://)
+- 
 
 ### Services & Configuration Manangement
 
@@ -93,7 +96,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [Bui Vu Nam](https://github.com/nambv) (Mobile Team Leader)
 - [Tran Quang Dat](https://github.com/dattran2346) (Android Engineer)
 - [Phan Quang Hieu](https://github.com/hieuphq) (iOS & Elixir)
-- [Huynh Cong Thai]() (iOS Engineer)
+- [Huynh Cong Thai](https://github.com/congthai08) (iOS Engineer)
 - [Le Ngoc Thach](https://github.com/runivn) (Backend Engineer)
 - [Tran Huu Minh](https://github.com/thminhvn) (Web Frontend)
 - [Giang Ngoc Huy](http://github.com/huygn) (Web Frontend)
@@ -101,7 +104,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 ### Design
 
-- [Le Duy Khai](http://khaidle.me)
+- [Le Duy Khai](http://khaidle.me) (UX Designer)
 
 ### Operation
 
