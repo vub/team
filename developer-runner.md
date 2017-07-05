@@ -110,7 +110,7 @@ Continue with the rest of the Runner installation instructions (install and star
 
 Go to the Runners page in your Project Settings and voilà:
 
-![runner-connected](https://storage.jumpshare.com/preview/RtyDVVkahcEMjkT6yhKz989KNlfv-VVazUJJKeFyCwkh-xIDAuho_zjbBlAirxktbvot-u8ETCeXYH0IboGGH90Iq-_ZMIwlJNqsu6s4bO0F1kR3dMUjedqC16uBUu85)
+![runner-connected](https://user-images.githubusercontent.com/7887262/27860643-a7f0daa4-61a7-11e7-817d-8d115a21b1b2.png)
 
 You can verify this by running
 
