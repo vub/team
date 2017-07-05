@@ -81,7 +81,7 @@ https://gitlab.com/ci
 
 ```
 Please enter the gitlab-ci token for this runner:
-<CI runner token from Project > Settings > Runner>
+<CI runner token from Project > Settings > Pipelines>
 ```
 
 Enter runner's name. The register process suggests the name of your Mac as a description for the runner.
