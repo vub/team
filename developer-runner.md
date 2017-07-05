@@ -33,19 +33,19 @@ $ sudo gitlab-runner stop
 
 ## Setting up your Xcode project
 
-1. Creating a new iOS project.
+Creating a new iOS project.
 
 ![create-project](https://about.gitlab.com/images/blogimages/setting-up-gitlab-for-ios-projects/1_create-new-xcode-project.png)
 
-2. Enabling Include Unit Tests and Include UI Tests options for the project. Xcode will create a template test class with some sample tests, which we'll use in this post as the test suite that GitLab CI runs to verify a build.
+Enabling Include Unit Tests and Include UI Tests options for the project. Xcode will create a template test class with some sample tests, which we'll use in this post as the test suite that GitLab CI runs to verify a build.
 
 ![setup-testing-options](https://about.gitlab.com/images/blogimages/setting-up-gitlab-for-ios-projects/2_enable-unit-tests.png)
 
-3. Choose where you'll save your iOS project. If you like, let Xcode create the git repository on your Mac.
+Choose where you'll save your iOS project. If you like, let Xcode create the git repository on your Mac.
 
 ![create-git](https://about.gitlab.com/images/blogimages/setting-up-gitlab-for-ios-projects/3_create-git-repository.png)
 
-4. Once Xcode has created and opened your iOS project, you need to share its scheme. By sharing your scheme, GitLab CI gets context it needs to build and test your project. To share a scheme in Xcode, choose **Product > Scheme > Manage Schemes**.
+Once Xcode has created and opened your iOS project, you need to share its scheme. By sharing your scheme, GitLab CI gets context it needs to build and test your project. To share a scheme in Xcode, choose **Product > Scheme > Manage Schemes**.
 
 ![share-scheme](https://about.gitlab.com/images/blogimages/setting-up-gitlab-for-ios-projects/4_share-xcode-scheme.png)
 
@@ -55,11 +55,11 @@ Your Xcode project has been created with two test files; one includes sample uni
 
 The green checkmarks next to the test functions (both in the file, and in the Test navigator) show that all tests passed. We won't be referring to the Xcode project anymore, so if you like, you can close it.
 
-5. The final step here is to install `xcpretty`. When Xcode builds and tests your project, `xcpretty` will transform the output into something more readable for you.
+The final step here is to install `xcpretty`. When Xcode builds and tests your project, `xcpretty` will transform the output into something more readable for you.
 
 ## Installing and registering the GitLab Runner
 
-1. Registering runner
+Registering runner
 
 ```
 $ sudo gitlab-ci-multi-runner register
@@ -71,33 +71,33 @@ WARNING: Use sudo for system-mode:
 WARNING: $ sudo gitlab-runner...
 ```
 
-2. Entering gitlab-ci URL
+Entering gitlab-ci URL
 ```
 Please enter the gitlab-ci coordinator URL (e.g. https://gitlab.com/ci):
 https://gitlab.com/ci
 ```
 
-3. The CI token for your project is available on GitLab's Project Settings page, under Advanced Settings. Each project has a unique token.
+#### The CI token for your project is available on GitLab's Project Settings page, under Advanced Settings. Each project has a unique token.
 
 ```
 Please enter the gitlab-ci token for this runner:
 <CI runner token from Project > Settings > Runner>
 ```
 
-4. Enter runner's name. The register process suggests the name of your Mac as a description for the runner.
+Enter runner's name. The register process suggests the name of your Mac as a description for the runner.
 ```
 Please enter the gitlab-ci description for this runner:
 [Your-Mac's-Name.local]:
 ```
 
-5. Enter whatever tags you'd like to further identify this particular runner. This way, we can filter our build stages in GitLab by toolchain, platform, etc.
+Enter whatever tags you'd like to further identify this particular runner. This way, we can filter our build stages in GitLab by toolchain, platform, etc.
 
 ```
 Please enter the gitlab-ci tags for this runner (comma separated):
 ios_9-2, xcode_7-2, osx_10-11
 ```
 
-6. The GitLab Runner has to run `xcodebuild` to build and test the project, so we select `shell` as the executor:
+The GitLab Runner has to run `xcodebuild` to build and test the project, so we select `shell` as the executor:
 
 ```
 Please enter the executor: virtualbox, ssh, shell, parallels, docker, docker-ssh:
@@ -108,11 +108,11 @@ already the config should be automatically reloaded!
 
 Continue with the rest of the Runner installation instructions (install and start), per the documentation.
 
-7. Go to the Runners page in your Project Settings and voilà:
+Go to the Runners page in your Project Settings and voilà:
 
 ![runner-connected](https://storage.jumpshare.com/preview/RtyDVVkahcEMjkT6yhKz989KNlfv-VVazUJJKeFyCwkh-xIDAuho_zjbBlAirxktbvot-u8ETCeXYH0IboGGH90Iq-_ZMIwlJNqsu6s4bO0F1kR3dMUjedqC16uBUu85)
 
-8. You can verify this by running
+You can verify this by running
 
 ```
 $ sudo gitlab-ci-multi-runner verify
@@ -125,7 +125,7 @@ WARNING: $ sudo gitlab-runner...
 Veryfing runner... is alive                         runner=25c780b3
 ```
 
-9. Configuring the build and test settings. To do so, open your text editor and enter the following:
+#### Configuring the build and test settings. To do so, open your text editor and enter the following:
 
 
   ```
@@ -145,10 +145,10 @@ Veryfing runner... is alive                         runner=25c780b3
 
  Save this file in your Xcode project folder as `.gitlab-ci.yml`.
 
-10. After all, you can push your commit normally and you can check `Pipelines` tab to see CI build's log
+After all, you can push your commit normally and you can check `Pipelines` tab to see CI build's log
 
 ## Notes
-Let's go through the file with some detail:
+Let's go through the file with some details:
 
 - The file first describes the stages available to each job. For simplicity, we have one stage (build) and one job (build_project).
 - The file then provides the settings for each job. The build_project job runs two scripts: one to clean the Xcode project, and then another to build and test it. You can probably skip the cleaning script to save time, unless you want to be sure that you're building from a clean state.
