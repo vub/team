@@ -1,43 +1,34 @@
 Dwarvesf uses **self-host Gitlab** as version control system. We do have some conventions that every team member should follow.
 
-# Init project
-To start a project, team leader/owner will be in charge in creating the repository and inviting related team members.
+Some definitions we are using in our process:
 
-Usually, project separated into frontend(Web, iOS, Android), backend and belongs to the same group.
+# Issue
+We use issues as the smallest object in management. Issues fall into serveral kinds:
 
-For example, to start Canlead project, the Owner creates the group `canlead`.
+Type:
 
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-group.png">
+- `Feature` which converted from a user story. Feature has another name as parent issue, contains list of child issue.
+- `Enhancement`is a task that can be handled independently. 
+- `Bug` is another kind of task but not expected upfront.
 
-Then create fellow repositories:
+Priority:
 
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-project.png">
+- Critical
+- High
+- Medium
+- Low
 
-Next, add members with roles:
+Status:
 
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/add-new-member.png">
+- Todo
+- Doing
+- Review
+- Blocked
+- Done
 
-There are few roles in Gitlab, we use:
-- `Master` for who manage this project
-- `Developer` for those who in active development
-- `Guest` for clients on reviewing purposes.
+We use labels for categorize kind of issues. 
 
-
-# Setup repositories
-
-Each repository must have those files as initialisation.
-
-- `README.md`:
-This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
-
-   * Requirement installation
-   * How to compile and run
-   * Development(architecture, how to extend new feature)
-   * How to deploy
-
-- `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
-
-We uses **issues board** for tasks management. Every issue must follow this template.
+Every issue has to follow the template below:
 
 ```
 <!--
@@ -82,9 +73,13 @@ This might come from design or the previous version of application.
 (Insert your log/stack trace here)
 ```
 
-- `.gitlab/merge_request_templates/Feature.md`
+The person who in charge creating issue can config this template at `.gitlab/merge_request_templates/Feature.md`
 
-We do use format for merge request(pull request) as well.
+# Merge request
+
+Merge or pull requests are a feature that makes it easier for a team member finish his task. When merge request created, it will be assigned to the competent that can review and give feedbacks.
+
+Every merge request should follow the template:
 
 ```
 <!--
@@ -126,16 +121,75 @@ READY / IN DEVELOPMENT / HOLD
 - Does this add new dependencies which need to be added to?
 
 ```
+The person who in charge creating issue can config this template at  `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
+
+If the task is taking longer than expected, assignee must provide the **temporary merge request** with prefix (WIP) and link to the related issue.
+
+<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/wip-mr.png">
+
+# Project
+
+To start a project, team leader/owner will be in charge in creating the repository and inviting related team members.
+We use single repository for all kinds of platforms, including frontend, backend, ios and android.
+
+# Version
+- We use [sematic version](http://semver.org/) to manage our versions. 
+- In development phase, version format will be 0.x.0, start from 0.1.0
+- In production phase, version format will be x.y.z, start from 1.0.0
+- Tag's name is version with `v` prefix.
+
+# Milestone
+
+Milestones are tools used in project management to mark specific points along a project timeline. 
+
+<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/milestone.png">
+
+Milestones most of the time are used to time series marking, which mean every task, every feature must stick into one milestone.
+Some points we use milestone in Dwarves Foundation:
+- Milestones will be spawned corresponding to sprint time.
+- Milestones name are application versions that will be released.
+
+# Init project
+
+
+# Setup repositories
+
+Each repository must have those files as initialisation.
+
+- `README.md`:
+This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
+
+   * Requirement installation
+   * How to compile and run
+   * Development(architecture, how to extend new feature)
+   * How to deploy
+
+
+
+We uses **issues board** for tasks management. Every issue must follow this template.
+
+
+
+
+We do use format for merge request(pull request) as well.
+
 
 # Workflow
 
 Dwarvesf has plenty of team members across the world, including part time and full time. To make sure the synchronization and collaboration, we has our own working flow.
 
-At the begining of the week, team members gather together to have quick meeting. After that, a leader who control the progress of project will create a bunch of issues as current sprint tasks.
+At the very begining, team leader and project manager take a seat together, plan for these things:
+- Estimate how many milestones in this project.
+- Construct backlog (user stories converted into feature)
+
+Each sprint begins with a planning meeting. During the meeting, the product owner and the development team agree upon exactly what work will be accomplished during the sprint. The development team has the final say when it comes to determining how much work can realistically be accomplished during the sprint, and the product owner has the final say on what criteria need to be met for the work to be approved and accepted.
+
+After a sprint begins, the product owner must step back and let the team do their work. A leader who controls the progress of project will create a bunch of issues as current sprint tasks, mark them all with to-do label.
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/issue-board.png">
 
 To start working, each team member picks an issue, and assign to themself.
+
 
 Before working on issue, estimation is a must. Developers can use spash command **/estimate** on gitlab like this:
 
