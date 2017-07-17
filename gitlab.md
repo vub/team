@@ -9,7 +9,7 @@ We use issues as the smallest object in management. Issues fall into serveral ki
 Type:
 
 - `Feature` which converted from a user story. Feature has another name as parent issue, contains list of child issue.
-- `Enhancement`is a task that can be handled independently. 
+- `Enhancement`is a task that can be handled independently.
 - `Bug` is another kind of task but not expected upfront.
 
 Priority:
@@ -27,7 +27,7 @@ Status:
 - Blocked
 - Done
 
-We use labels for categorize kind of issues. 
+We use labels for categorize kind of issues.
 
 Every issue has to follow the template below:
 
@@ -140,14 +140,14 @@ A project have to be well descripted by writing `README.md`. A good README.md sh
    * How to deploy
 
 ## Version
-- We use [sematic version](http://semver.org/) to manage our versions. 
+- We use [sematic version](http://semver.org/) to manage our versions.
 - In development phase, version format will be 0.x.0, start from 0.1.0
 - In production phase, version format will be x.y.z, start from 1.0.0
 - Tag's name is version with `v` prefix.
 
 ## Milestone
 
-Milestones are tools used in project management to mark specific points along a project timeline. 
+Milestones are tools used in project management to mark specific points along a project timeline.
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/milestone.png">
 
@@ -169,10 +169,10 @@ Each sprint begins with a planning meeting. During the meeting, the product owne
 
 After a sprint begins, the product owner must step back and let the team do their work. A leader who controls the progress of project will create a bunch of issues as current sprint tasks, mark them all with to-do label.
 
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/issue-board.png">
 
 To start working, each team member picks an issue, and assign to themself.
 
+<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/board.png">
 
 Before working on issue, estimation is a must. Developers can use spash command **/estimate** on gitlab like this:
 
@@ -197,5 +197,5 @@ There are several rules sumarized:
  * **develop** is in active development.
  * Every feature branch must has prefix **feature/**. Feature branchs only separated from develop and will be merge to develop.
  * Merge request can be merged if there are more than 2 thumbs up.
- 
+
 Dwarves prefer **CLI** to **GUI** git client.
