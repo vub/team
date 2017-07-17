@@ -1,8 +1,9 @@
 Dwarvesf uses **self-host Gitlab** as version control system. We do have some conventions that every team member should follow.
 
-Some definitions we are using in our process:
+# Terms
+Some terms we are using in our process.
 
-# Issue
+## Issue
 We use issues as the smallest object in management. Issues fall into serveral kinds:
 
 Type:
@@ -75,7 +76,7 @@ This might come from design or the previous version of application.
 
 The person who in charge creating issue can config this template at `.gitlab/merge_request_templates/Feature.md`
 
-# Merge request
+## Merge request
 
 Merge or pull requests are a feature that makes it easier for a team member finish his task. When merge request created, it will be assigned to the competent that can review and give feedbacks.
 
@@ -127,18 +128,24 @@ If the task is taking longer than expected, assignee must provide the **temporar
 
 <img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/wip-mr.png">
 
-# Project
+## Project
 
 To start a project, team leader/owner will be in charge in creating the repository and inviting related team members.
 We use single repository for all kinds of platforms, including frontend, backend, ios and android.
 
-# Version
+A project have to be well descripted by writing `README.md`. A good README.md should cover:
+   * Requirement installation
+   * How to compile and run
+   * Development(architecture, how to extend new feature)
+   * How to deploy
+
+## Version
 - We use [sematic version](http://semver.org/) to manage our versions. 
 - In development phase, version format will be 0.x.0, start from 0.1.0
 - In production phase, version format will be x.y.z, start from 1.0.0
 - Tag's name is version with `v` prefix.
 
-# Milestone
+## Milestone
 
 Milestones are tools used in project management to mark specific points along a project timeline. 
 
@@ -148,30 +155,6 @@ Milestones most of the time are used to time series marking, which mean every ta
 Some points we use milestone in Dwarves Foundation:
 - Milestones will be spawned corresponding to sprint time.
 - Milestones name are application versions that will be released.
-
-# Init project
-
-
-# Setup repositories
-
-Each repository must have those files as initialisation.
-
-- `README.md`:
-This file documents all things need to be noted in this repo. Depends on type of repo, README.md covers:
-
-   * Requirement installation
-   * How to compile and run
-   * Development(architecture, how to extend new feature)
-   * How to deploy
-
-
-
-We uses **issues board** for tasks management. Every issue must follow this template.
-
-
-
-
-We do use format for merge request(pull request) as well.
 
 
 # Workflow
@@ -216,11 +199,3 @@ There are several rules sumarized:
  * Merge request can be merged if there are more than 2 thumbs up.
  
 Dwarves prefer **CLI** to **GUI** git client.
-
-## Work in progress(WIP) merge request
-
-If the task is taking longer than expected, assignee must provide the **temporary merge request** with prefix (WIP) and link to the related issue.
-
-<img src="https://raw.githubusercontent.com/dwarvesf/team/master/img/wip-mr.png">
-
-
