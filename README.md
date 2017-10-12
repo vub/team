@@ -94,13 +94,13 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 
 - [Le Minh Quang](https://github.com/ivkean) (DevOps)
 - [Bui Vu Nam](https://github.com/nambv) (Mobile Team Leader)
-- [Tran Quang Dat](https://github.com/dattran2346) (Android Engineer)
 - [Phan Quang Hieu](https://github.com/hieuphq) (iOS & Elixir)
 - [Huynh Cong Thai](https://github.com/congthai08) (iOS Engineer)
-- [Le Ngoc Thach](https://github.com/runivn) (Backend Engineer)
 - [Tran Huu Minh](https://github.com/thminhvn) (Web Frontend)
 - [Giang Ngoc Huy](http://github.com/huygn) (Web Frontend)
 - [Nguyen Hoang Huy](https://github.com/huynguyenh) (Web Frontend)
+- [Phan Thanh Thảo](https://github.com/) (QC 
+- [Nguyen Hai Nam](https://github.com/) (QC Engineer)
 
 ### Design
 
@@ -109,10 +109,7 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 ### Operation
 
 - [Chu Duc Trung](https://www.linkedin.com/in/trungdchu/) (Sales Director)
-- [Trinh Le](http://) (Business Executive)
 - [Nguyen Ngoc Yen Ly](http://) (Business Executive)
-- [Tran Hoang Dong](http://) (Business Executive)
-- [Dao Thi Ha Thu](http://) (Internet Marketing)
 
 ## Alumni
 
@@ -124,6 +121,13 @@ Checkout the [portfolio](http://portfolio.dwarvesf.com/#tech) or [tech.md](https
 - [Nguyen Thanh Trung](https://github.com/arvernorix) (Frontend Seargant)
 - [Do Chi Thien](https://github.com/dvkndn) (Frontend Intern)
 - [Nguyen Quoc Huy](http://github.com/huyng) (Frontend Intern)
+- [Le Khanh](https://github.com/) (QC Engineer)
+- [Le Ngoc Thach](https://github.com/runivn) (Backend Engineer)
+- [Tran Quang Dat](https://github.com/dattran2346) (Android Engineer)
+- [Trinh Le](http://) (Business Executive)
+- [Tran Hoang Dong](http://) (Business Executive)
+- [Dao Thi Ha Thu](http://) (Internet Marketing)
+
 
 ### Misc
 
