@@ -74,7 +74,7 @@ This might come from design or the previous version of application.
 (Insert your log/stack trace here)
 ```
 
-The person who in charge creating issue can config this template at `.gitlab/merge_request_templates/Feature.md`
+The person who in charge creating issue can config this template at  `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
 
 ## Merge request
 
@@ -122,7 +122,8 @@ READY / IN DEVELOPMENT / HOLD
 - Does this add new dependencies which need to be added to?
 
 ```
-The person who in charge creating issue can config this template at  `.gitlab/issue_templates/ISSUE_TEMPLATE.md`
+
+The person who in charge creating issue can config this template at `.gitlab/merge_request_templates/Feature.md`
 
 If the task is taking longer than expected, assignee must provide the **temporary merge request** with prefix (WIP) and link to the related issue.
 
